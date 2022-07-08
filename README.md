@@ -24,4 +24,5 @@ _Diagonals sum:_
 6 + 5 + 4 = 15
 
 ## The solution
-Make a 3x3 matrix and changes the values of each index based on the sum of index, columns as diagonals.
+Make a 3x3 matrix and changes the values of each index based on the sum of index, columns as diagonals.   
+The values are stored in 2 arrays called "number1" and "number2", and they're filled with ramdom numbers. The random numbers are then switched with the matrix rows, and a method is called (IsMagicSquare), that checks if the matrix is equals to 15 when it sums the rows, columns and diagonals. If the method returns "false", it start the iteration all over again, until it finds a "true" return.
